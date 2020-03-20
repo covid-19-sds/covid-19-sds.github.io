@@ -20,7 +20,7 @@
     {% else %}
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
-    <meta name="description" content="{{ desc }}">
+    <meta name="description" content="{{ page.description }}">
     <link href="https://fonts.googleapis.com/css2?family=Sen:400,700" rel="stylesheet" type="text/css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="/assets/css/main.css">
