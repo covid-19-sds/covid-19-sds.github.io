@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Effectivness of social distance stategies for protecting a community from the COVID-19 pandemic based on mobility data
+# Effectiveness of social distance stategies for protecting a community from the COVID-19 pandemic based on mobility data
 
 <br>
 
