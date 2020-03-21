@@ -3,6 +3,8 @@ layout: default
 description: We give answers to social distance strategies for the COVID-19 pandemic.
 ---
 
+<br>
+
 # Effectiveness of social distance stategies for protecting a community from the COVID-19 pandemic based on mobility data
 
 <br>
