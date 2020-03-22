@@ -129,5 +129,9 @@ In order to preserve privacy, residential areas are inferred at an aggregated US
 
 ## Acknoledgements and Partnerships
 
+This preliminary analysis is a collaboration between the [University Carlos III de Madrid](), [University of Zaragoza](https://www.unizar.es/), [MIT Media Lab](https://www.media.mit.edu/people/emoro/overview/), [ISI Foundation](https://www.isi.it/en/home), [CubeIQ Inc](https://www.cuebiq.com/). and [Zensei Technologies S.L.](https://zenseiapp.com). In response to the COVID-19 crisis, [Cuebiq is providing insights to academic and humanitarian groups through a multi-stakeholder data collaborative](https://www.cuebiq.com/about/data-for-good/) for timely and ethical analysis of aggregate human mobility patterns.
+
+  
+
 
 
