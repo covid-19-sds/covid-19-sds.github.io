@@ -74,6 +74,9 @@ Probabilities of contact are based on the time of two individuals being in the s
 
 ![Best social distance strategy](/assets/images/boston_population.png)
 
+In the previous chart we can see the distribution of adults and children in the population by US Census block groups in the Boston area. The Adult population comes from real world mobility data and children are synthetically generated with the help of the US Census data about Household type by size and Family type by presence of children under 18 years.
+
+
 ## Data-driven epidemic models
 
 ### Calibrating layer weights using historical ILI data and a SIR model
