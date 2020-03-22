@@ -98,7 +98,7 @@ We explore different social distance strategies:
 
 (iv) Restaurants, nightlife and cultural closures.
 
-(v) Non-essential workplace closures .
+(v) Non-essential workplace closures.
 
 (vi) Total confinement.
 
