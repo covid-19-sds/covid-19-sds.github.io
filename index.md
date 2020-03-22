@@ -5,23 +5,85 @@ description: We give answers to social distance strategies for the COVID-19 pand
 
 <br>
 
-# Effectiveness of social distance stategies for protecting a community from the COVID-19 pandemic based on mobility data
+# Effectiveness of social distance strategies for protecting a community from a pandemic with a data-driven contact network based on census and real-world mobility data
 
 <br>
 
-## Summary
+Authors: David Martín-Corral (1,2), Alberto Aleta (3,4), Yamir Moreno (3,4), Esteban Moro (1,5).
+ 
+(1) University Carlos III de Madrid, Spain.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+(2) Zensei Technologies S.L., Spain.
 
-## Intro
+(3) University of Zaragoza, Spain.
 
-## Data & Methods
+(4) ISI Foundation, Turing, Italy.
 
-## Results
+(5) MIT Media Lab, Cambridge, US.
+<br>
 
-## Discussion
+**Notice:** This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. A summary of this report can be downloaded [here](/).
 
-## References
+## Key findings
 
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+  1. **School closures do not work as expected**, despite closing them infections keep occurring within the households and the community layers.
+
+  2. **Passive social distance strategies are not enough to reduce the impact of the epidemic**, active strategies are needed to be established, like rapid diagnostic testing, remote symptoms monitoring and social contact tracing.
+
+  3. **A period between 2 to 3 months of social distance will be needed to control the outbreak** and to reduce the probability of a second outbreak.
+
+  4. If high resolution mobility data is available, **our data-driven approach can ingest new cities or countries to simulate the dynamic of the epidemic.** 
+
+## Background
+
+Current situation of emergency is global. In less than three months of social distance stratrategies started to be in place, there are more than 23 countries with more than 1.000 infected cases by COVID-19. Each of them with different mitigation and suppression strategies that use social distance tactics. 
+
+The results of this variance in strategies is that the balance of infected cases and deaths by country are different, putting millions of people at risk of death or saving millions of lives. 
+
+Our report has preliminary results that try to respond to the following answers to the COVID-19 epidemic and the mitigation strategies based on social distance. 
+
+* What is the impact of current social distance strategies over the epidemic? 
+
+* For how long do they need to be in place? How many people will be infected? Who has been infected? 
+
+* How do R(t) and the epidemic dynamic change based on adding strategies? What is the probability of having a second outbreak? 
+
+* If so, How much time do we have to get ready? How long should we wait to have x% of the population infected? 
+
+* Which is the best strategy to minimize the current epidemic and get ready for a second outbreak?
+
+We test a set of six passive social distance strategies and what if cases to respond previous questions.
+
+## Data
+
+### Mobility and synthetic data for building the contact network
+
+## Data-driven epidemic models
+
+### Calibrating layer weights using historical ILI data and a SIR model
+
+### SEIR model for modelling the COVID-19 epidemic
+
+## Social distance startegies
+
+(i) School closures
+
+(ii) Self-distancing and remote work
+
+(iii) Self-distancing and remote work plus School closure 
+
+(iv) Restaurants, nightlife and cultural closures
+
+(v) Non-essential workplace closures 
+
+(vi) Total confinement
+
+We test the impact of establishing these strategies at different stages of the epidemic curve and for different periods of time.
+
+## Data Protection
+
+
+## Acknoledgements and Partnerships
+
+
+

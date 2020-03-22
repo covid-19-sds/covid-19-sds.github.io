@@ -84,9 +84,12 @@
                 {% if site.footer == true %}
                     <br>
                     <hr />
-                    <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
-                    </p>
+                    <div style="margin-bottom: 10px">
+                        {% include share-buttons.html %}
+                        <p style="text-align: center; margin-bottom: 10px">
+                            <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
+                        </p>
+                    </div>
                 {% endif %}
             </div>
     </div>

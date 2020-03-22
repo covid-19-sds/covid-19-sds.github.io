@@ -3,24 +3,13 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+For inquiries about this work, please email:
 
-* Phone: [+91-123123](tel:+91-123123)
+* [Yamir Moreno](mailto:yamir.moreno@gmail.com)
 
----
+or 
 
-## Mailing Address
+* [Esteban Moro](mailto:esteban.moroegido@gmail.com)
 
-> 221B, Baker Street
->
-> London
->
-> United Kingdom
+[Go back to results](/)
 
----
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)

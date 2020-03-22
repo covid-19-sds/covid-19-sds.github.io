@@ -4,26 +4,47 @@ layout: default
 
 <br>
 
-## Leonard Euler
+## Esteban Moro
 
 <img class="profile-picture" src="/assets/images/euler.jpeg">
 
-Leonhard Euler was a Swiss mathematician, physicist, astronomer, geographer, logician and engineer.
+Visiting professor at the MIT Media Lab (US) and associate professor at the Universidad Carlos III de Madrid (Spain).
 
-He made important and influential discoveries in many branches of mathematics, such as infinitesimal calculus.
-
-[Twitter](#)
+[Twitter](https://twitter.com/estebanmoro)
+[Email](mailto:esteban.moroegido@gmail.com)
 
 <br>
 
-## Paul Erdos
+## Yamir Moreno
 
 <img class="profile-picture" src="/assets/images/erdos.jpeg">
 
-Paul Erdős was a renowned Hungarian mathematician. 
+Professor of Physics at the Department of Theoretical Physics and Director of the Institute for Biocomputation and Physics of Complex Systems at the of the University of Zaragoza.
 
-He was one of the most prolific mathematicians and producers of mathematical conjectures of the 20th century. 
+[Twitter](https://twitter.com/cosnet_bifi)
+[Email](mailto:yamir.moreno@gmail.com)
 
-He was known both for his social practice of mathematics and for his eccentric lifestyle.
+<br>
 
-[Twitter](#)
+## Alberto Aleta
+
+<img class="profile-picture" src="/assets/images/erdos.jpeg">
+
+Phd candidate in Physics at University of Zaragoza (Spain) and Visiting researcher at Institute for Scientific Interchage (ISI) in Turin, Italy.
+
+[Email](mailto:of the University of Zaragoza)
+
+<br>
+
+## David Martín-Corral Calvo
+
+<img class="profile-picture" src="/assets/images/erdos.jpeg">
+
+Phd candidate in Mathematical Engineering at the Universidad Carlos III de Madrid (Spain) and CEO of Zensei App, a data-driven virtual respiratory clinic.
+
+[Twitter](https://twitter.com/Dmartincc)
+[Email](mailto:dmartinc84@gmail.com)
+
+<br>
+
+[Go back to results](/)
