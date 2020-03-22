@@ -6,8 +6,6 @@ layout: default
 
 ## Esteban Moro
 
-<img class="profile-picture" src="/assets/images/euler.jpeg">
-
 Visiting professor at the MIT Media Lab (US) and associate professor at the Universidad Carlos III de Madrid (Spain).
 
 * [Twitter](https://twitter.com/estebanmoro)
@@ -17,8 +15,6 @@ Visiting professor at the MIT Media Lab (US) and associate professor at the Univ
 <br>
 
 ## Yamir Moreno
-
-<img class="profile-picture" src="/assets/images/erdos.jpeg">
 
 Professor of Physics at the Department of Theoretical Physics and Director of the Institute for Biocomputation and Physics of Complex Systems at the of the University of Zaragoza.
 
@@ -30,8 +26,6 @@ Professor of Physics at the Department of Theoretical Physics and Director of th
 
 ## Alberto Aleta
 
-<img class="profile-picture" src="/assets/images/erdos.jpeg">
-
 Phd candidate in Physics at University of Zaragoza (Spain) and Visiting researcher at Institute for Scientific Interchage (ISI) in Turin, Italy.
 
 * [Email](mailto:of the University of Zaragoza)
@@ -39,8 +33,6 @@ Phd candidate in Physics at University of Zaragoza (Spain) and Visiting research
 <br>
 
 ## David Martín-Corral Calvo
-
-<img class="profile-picture" src="/assets/images/erdos.jpeg">
 
 Phd candidate in Mathematical Engineering at the Universidad Carlos III de Madrid (Spain) and Cofounder of Zensei App, a data-driven virtual respiratory clinic.
 

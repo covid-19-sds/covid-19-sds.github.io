@@ -22,7 +22,9 @@ Authors: David Martín-Corral (1,4), Alberto Aleta (2,3), Yamir Moreno (2,3), Es
 
 (5) MIT Media Lab, Cambridge, US.
 
-**Notice:** This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. A summary of this report can be downloaded [here](/).
+**Notice:** This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. 
+
+A extended version of our results can be downloaded [here](/).
 
 <br>
 
@@ -121,6 +123,8 @@ In the previous chart we can see the distribution of adults and children in the 
 **4) New ifections by layer:** We see similar epidemic dynamics between 30 and 90 days, the duration of the measures just keep stable the proportion of new infections by layer while the measures are in place.
 
 **5) Case distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.
+
+A extended version of our results can be downloaded [here](/).
 
 ## Data Protection
 
