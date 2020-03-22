@@ -11,13 +11,13 @@ description: We give answers to social distance strategies for the COVID-19 pand
 
 Authors: David Martín-Corral (1,2), Alberto Aleta (3,4), Yamir Moreno (3,4), Esteban Moro (1,5).
  
-(1) University Carlos III de Madrid, Spain.
+(1) University Carlos III de Madrid, Leganés, Spain.
 
-(2) Zensei Technologies S.L., Spain.
+(2) Zensei Technologies S.L., Madrid, Spain.
 
-(3) University of Zaragoza, Spain.
+(3) University of Zaragoza, Zaragoza, Spain.
 
-(4) ISI Foundation, Turing, Italy.
+(4) ISI Foundation, Turin, Italy.
 
 (5) MIT Media Lab, Cambridge, US.
 
