@@ -20,9 +20,10 @@ Authors: David Martín-Corral (1,2), Alberto Aleta (3,4), Yamir Moreno (3,4), Es
 (4) ISI Foundation, Turing, Italy.
 
 (5) MIT Media Lab, Cambridge, US.
-<br>
 
 **Notice:** This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. A summary of this report can be downloaded [here](/).
+
+<br>
 
 ## Key findings
 
@@ -30,9 +31,11 @@ Authors: David Martín-Corral (1,2), Alberto Aleta (3,4), Yamir Moreno (3,4), Es
 
   2. **Passive social distance strategies are not enough to reduce the impact of the epidemic**, active strategies are needed to be established, like rapid diagnostic testing, remote symptoms monitoring and social contact tracing.
 
-  3. **A period between 2 to 3 months of social distance will be needed to control the outbreak** and to reduce the probability of a second outbreak.
+  3. **A period between 2 to 3 months of social distance will be needed to control the outbreak** and reduce the probability of a second outbreak in the mid-term.
 
   4. If high resolution mobility data is available, **our data-driven approach can ingest new cities or countries to simulate the dynamic of the epidemic.** 
+
+<br>
 
 ## Background
 
@@ -40,13 +43,15 @@ Current situation of emergency is global. In less than three months of social di
 
 The results of this variance in strategies is that the balance of infected cases and deaths by country are different, putting millions of people at risk of death or saving millions of lives. 
 
-Our report has preliminary results that try to respond to the following answers to the COVID-19 epidemic and the mitigation strategies based on social distance. 
+Our report has preliminary results that try to respond to the following answers to the COVID-19 epidemic and the mitigation strategies based on social distance:
 
 * What is the impact of current social distance strategies over the epidemic? 
 
 * For how long do they need to be in place? How many people will be infected? Who has been infected? 
 
-* How do R(t) and the epidemic dynamic change based on adding strategies? What is the probability of having a second outbreak? 
+* How do R(t) and the epidemic dynamic change based on adding strategies? 
+
+* What is the probability of having a second outbreak? 
 
 * If so, How much time do we have to get ready? How long should we wait to have x% of the population infected? 
 
@@ -56,7 +61,13 @@ We test a set of six passive social distance strategies and what if cases to res
 
 ## Data
 
-### Mobility and synthetic data for building the contact network
+We used detailed mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively. 
+
+We use it to generate one network describing the contact patterns of about 80.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
+
+The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the school layer is based on children from households. 
+
+Probabilities of contact are based on the time of two individuals being in the same place.
 
 ## Data-driven epidemic models
 
@@ -79,6 +90,10 @@ We test a set of six passive social distance strategies and what if cases to res
 (vi) Total confinement
 
 We test the impact of establishing these strategies at different stages of the epidemic curve and for different periods of time.
+
+## Summary of results
+
+
 
 ## Data Protection
 

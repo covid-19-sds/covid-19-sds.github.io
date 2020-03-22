@@ -75,10 +75,11 @@
 
 <p>(4) ISI Foundation, Turing, Italy.</p>
 
-<p>(5) MIT Media Lab, Cambridge, US.
-<br /></p>
+<p>(5) MIT Media Lab, Cambridge, US.</p>
 
 <p><strong>Notice:</strong> This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. A summary of this report can be downloaded <a href="/">here</a>.</p>
+
+<p><br /></p>
 
 <h2 id="key-findings">Key findings</h2>
 
@@ -90,12 +91,14 @@
     <p><strong>Passive social distance strategies are not enough to reduce the impact of the epidemic</strong>, active strategies are needed to be established, like rapid diagnostic testing, remote symptoms monitoring and social contact tracing.</p>
   </li>
   <li>
-    <p><strong>A period between 2 to 3 months of social distance will be needed to control the outbreak</strong> and to reduce the probability of a second outbreak.</p>
+    <p><strong>A period between 2 to 3 months of social distance will be needed to control the outbreak</strong> and reduce the probability of a second outbreak in the mid-term.</p>
   </li>
   <li>
     <p>If high resolution mobility data is available, <strong>our data-driven approach can ingest new cities or countries to simulate the dynamic of the epidemic.</strong></p>
   </li>
 </ol>
+
+<p><br /></p>
 
 <h2 id="background">Background</h2>
 
@@ -103,7 +106,7 @@
 
 <p>The results of this variance in strategies is that the balance of infected cases and deaths by country are different, putting millions of people at risk of death or saving millions of lives.</p>
 
-<p>Our report has preliminary results that try to respond to the following answers to the COVID-19 epidemic and the mitigation strategies based on social distance.</p>
+<p>Our report has preliminary results that try to respond to the following answers to the COVID-19 epidemic and the mitigation strategies based on social distance:</p>
 
 <ul>
   <li>
@@ -113,7 +116,10 @@
     <p>For how long do they need to be in place? How many people will be infected? Who has been infected?</p>
   </li>
   <li>
-    <p>How do R(t) and the epidemic dynamic change based on adding strategies? What is the probability of having a second outbreak?</p>
+    <p>How do R(t) and the epidemic dynamic change based on adding strategies?</p>
+  </li>
+  <li>
+    <p>What is the probability of having a second outbreak?</p>
   </li>
   <li>
     <p>If so, How much time do we have to get ready? How long should we wait to have x% of the population infected?</p>
@@ -127,7 +133,13 @@
 
 <h2 id="data">Data</h2>
 
-<h3 id="mobility-and-synthetic-data-for-building-the-contact-network">Mobility and synthetic data for building the contact network</h3>
+<p>We used detailed mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively.</p>
+
+<p>We use it to generate one network describing the contact patterns of about 80.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).</p>
+
+<p>The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the school layer is based on children from households.</p>
+
+<p>Probabilities of contact are based on the time of two individuals being in the same place.</p>
 
 <h2 id="data-driven-epidemic-models">Data-driven epidemic models</h2>
 
@@ -150,6 +162,8 @@
 <p>(vi) Total confinement</p>
 
 <p>We test the impact of establishing these strategies at different stages of the epidemic curve and for different periods of time.</p>
+
+<h2 id="summary-of-results">Summary of results</h2>
 
 <h2 id="data-protection">Data Protection</h2>
 
@@ -195,7 +209,7 @@
     <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/intent/tweet?text=http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
     <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/&title=COVID-19 Social Distance Strategies&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
     
-    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?subject=COVID-19 Social Distance Strategies&body=http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
 </div>
                         <p style="text-align: center; margin-bottom: 10px">
                             <a href="" style="color: black"><small></small></a>

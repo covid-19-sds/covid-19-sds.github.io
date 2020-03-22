@@ -7,9 +7,9 @@ For inquiries about this work, please email:
 
 * [Yamir Moreno](mailto:yamir.moreno@gmail.com)
 
-or 
-
 * [Esteban Moro](mailto:esteban.moroegido@gmail.com)
+
+<br>
 
 [Go back to results](/)
 
