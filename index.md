@@ -1,6 +1,6 @@
 ---
 layout: default
-description: We give answers to social distance strategies for the COVID-19 pandemic.
+description: We give scientific answers to social distance strategies for the COVID-19 pandemic.
 image: /assets/images/best_strategy.png
 ---
 
