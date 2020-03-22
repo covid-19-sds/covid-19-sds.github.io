@@ -113,9 +113,9 @@ The best strategy based on our study is to appy a social distance of 90% of adop
 
 In the following chart, we can see the dynamic of the epidemic if the propose strategy is established.
 
-![Best social distance strategy](/assets/images/best_strategy.png)
+![Best social distance strategy](/assets/images/best_strategy.svg)
 
-In the previous chart we can see the distribution of adults and children in the population by US Census block group. Adults are from real world mobility data and children are generate with help of the US census data about Household type by household size and Family type by presence of children under 18 years.
+The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
 
 **1) Epidemic trajectory:** We can see that the epidemic trajectory keeps at minimum while the strategy endures. That give us time for getting ready and control the second wave with a well defined suppression strategy.
 
