@@ -110,6 +110,8 @@ In the following chart, we can see the dynamic of the epidemic if the propose st
 
 ![Best social distance strategy](/assets/images/best_strategy.png)
 
+In the previous chart we can see the distribution of adults and children in the population by US Census block group. Adults are from real world mobility data and children are generate with help of the US census data about Household type by household size and Family type by presence of children under 18 years.
+
 **1) Epidemic trajectory:** We can see that the epidemic trajectory keeps at minimum while the strategy endures. That give us time for getting ready and control the second wave with a well defined suppression strategy.
 
 **2) Total cases:** We can see that the duration of the social distance measures delay the growth of cumulative cases the time of the measures plus 30 days.
@@ -119,7 +121,6 @@ In the following chart, we can see the dynamic of the epidemic if the propose st
 **4) New ifections by layer:** We see similar epidemic dynamics between 30 and 90 days, the duration of the measures just keep stable the proportion of new infections by layer while the measures are in place.
 
 **5) Case distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.
-
 
 ## Data Protection
 
