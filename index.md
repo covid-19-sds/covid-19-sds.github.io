@@ -155,7 +155,7 @@ More details about its dynamic:
 
 **4) New infections by layer:** We see similar epidemic dynamics between 30 and 90 days, the duration of the measures just keep stable the proportion of new infections by layer while the measures are in place.
 
-**5) Infections distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.
+**5) Infections distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. However, there are important differences between the situation with and without mitigation strategies. While the restrictions are in place, almost 80% of the infections are produced within households. Once the restrictions are lifted, most new infections take place within the community.
 
 A extended version of this report can be downloaded [here](/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
 
