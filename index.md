@@ -125,7 +125,7 @@ We test the impact of establishing these strategies at different stages of the e
 
 The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
 
-In the following chart, we can see the dynamic of the epidemic if the propose strategy is established.
+In the following chart, we can see the dynamic of the epidemic if the total confinement is applied. We can see a second outbreak with a high reproductive number. Therefore, we think that this strategy is not the best one at operational and economic level.
 
 <br>
 
