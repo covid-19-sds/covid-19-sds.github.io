@@ -131,6 +131,8 @@ The best strategy based on our study is to appy a social distance of 90% of adop
 
 A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-22_Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
 
+<br>
+
 ## Data Protection
 
 This research was solely based on data from anonymized users who have opted-in to provide access to their location data anonymously, through a GDPR-compliant framework. The analysis never singled out identifiable individuals and no attempts were made to link these data to third party data about an individual. 
