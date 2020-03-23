@@ -79,7 +79,7 @@ In this report, we provide details of the data analyzed, the methodology (and it
 
 ### _Mobility and synthetic data for building the contact network_
 
-We used detailed mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively. 
+We used de-identified mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively. The de-identified mobility data is from users who opted in to share their data anonymously.
 
 We use it to generate one network describing the contact patterns of about 85.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
 
