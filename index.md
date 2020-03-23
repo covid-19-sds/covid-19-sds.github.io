@@ -115,7 +115,11 @@ The best strategy based on our study is to appy a social distance of 90% of adop
 
 In the following chart, we can see the dynamic of the epidemic if the propose strategy is established.
 
+<br>
+
 ![Best social distance strategy](/assets/images/best_strategy.svg)
+
+<br>
 
 The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
 
