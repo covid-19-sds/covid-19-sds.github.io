@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Scientific answers for the best social distance strategy to combat the COVID-19 pandemic.
+description: Scientific answers for the best social distancing strategy to combat the COVID-19 pandemic.
 image: /assets/images/best_strategy.png
 ---
 
