@@ -24,47 +24,60 @@ image: /assets/images/best_strategy.png
 
 **Notice:** This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. 
 
-A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-22_Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
+A extended version of this report can be downloaded [here](/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
 
 <br>
 
 ## Key findings
 
-  1. **School closures do not have a major impact on controlling the epidemic**, despite closing them infections keep occurring within the households and the community layers.
+  1. **School closures do not have a major impact on controlling the epidemic**, despite closing them, infections keep occurring within the households and the community layers.
 
   2. **Passive social distance strategies are not enough to contain the epidemic**, active strategies need to be established. For instance, large scale testing, remote symptoms monitoring, isolation and contact tracing.
 
-  3. **School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic**, but only if they are applied for a large period of time and follow by active measures.
+  3. **School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic**, but only if they are applied for a large period of time.
 
-  4. **A full confinement is not feasible and will not solve the problem**, without active measures in place after the confinement there would be a new outbreak.
+  4. **A full confinement is not feasible and will not solve the problem**, without active measures in place after the confinement, since there would be a new outbreak.
 
-  5. If high resolution mobility data is available, **our data-driven approach with real world data can ingest new cities or countries quite easily** to measure the evolution of social distance strategies and the epidemic.
+  5. If high resolution mobility data is available, **our data-driven approach with real world data can be easily replicated for new cities or countries** to measure the impact of social distance strategies and the epidemic.
+
+## Abbrevations
+
+* ILI = Influenza-like Illness
+* SIR = Susceptible Infected Recovered
+* SEIR = Susceptieble Exposed Infected Recovered
 
 <br>
 
 ## Background
 
-Current situation of emergency is global. In less than three months of social distance strategies that they started to be in place, there are more than 23 countries with more than 1.000 infected cases by COVID-19. Each of them with different mitigation and suppression strategies that use social distance tactics. 
+The current situation of emergency is global. As of today, March 22nd 2020, there are more than 23 countries with more than 1.000 infected cases by COVID-19, in the exponential growth phase of the disease. 
 
-The results of this variance in strategies is that the balance of infected cases and deaths by country are different, putting millions of people at risk of death or saving millions of lives. 
+Furthermore, there are different mitigation and suppression strategies in place worldwide, but many of them are based on enforcing, to a more or less extent, the so-called social distancing. 
 
-Our report has preliminary results that try to respond to the following answers to the COVID-19 epidemic and the mitigation strategies based on social distance:
 
-* What is the impact of current social distance strategies over the epidemic? 
+The impact and outcomes of the adopted measures are yet to be contrasted and quantified. Therefore, realistic modeling approaches could provide important clues about what to expect and what could be the best course of actions. Such modeling efforts could potentially save thousands, if not millions of lives. 
 
-* For how long do they need to be in place? How many people will be infected? Who has been infected? 
+Our report contains preliminary results that aim at answering the following questions in relation to the spread and control of the COVID-19 pandemic:
 
-* How do R(t) and the epidemic dynamic change based on adding strategies? 
+* What is the expected impact of current social distancing strategies?
 
-* What is the probability of having a second outbreak? 
+* How long should such measures need to be in place?
 
-* If so, How much time do we have to get ready?
+* How many people will be infected and at which social level?
 
-* Which is the best strategy to minimize the current epidemic and get ready for a second outbreak?
+* How do R(t) and the epidemic dynamic change based on the adopted strategies?
 
-We test a set of six passive social distance strategies and what if cases to respond previous questions.
+* What is the probability of having a second outbreak, i.e., a reemergence?
 
-## Data
+* If there is a reemergence, how much time do we have to get ready?
+
+* What is the best strategy to minimize the current epidemic and get ready for a second wave?
+
+In this report, we provide details of the data analyzed, the methodology (and its limitations) employed as well as a quantitative and qualitative assessment of strategies based on social distancing and corresponding what-if-scenarios for control and mitigation. 
+
+## Data & Methods
+
+### _Mobility and synthetic data for building the contact network_
 
 We used detailed mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively. 
 
@@ -78,16 +91,13 @@ Probabilities of contact are based on the time of two individuals being in the s
 
 In the previous chart we can see the distribution of adults and children in the population by US Census block groups in the Boston area. The Adult population comes from real world mobility data and children are synthetically generated with the help of the US Census data about Household type by size and Family type by presence of children under 18 years.
 
-
-## Data-driven epidemic models
-
-### Calibrating layer weights using historical ILI data and a SIR model
+### _Calibrating layer weights using historical ILI data and a SIR model_
 
 Initially, the weight of each link measures a different quantity. Links in households and schools have a weight equal to 1. 
 
 Conversely, links in the community layer are a measure of time, since it is the product of the fraction of time that individuals i and j have been in the same place
 
-### SEIR model for modelling the COVID-19 epidemic
+### _SEIR model for modelling the COVID-19 epidemic_
 
 With the values obtained in the previous model, we can weight each link by their relative importance in the propagation of a disease that is transmitted by droplets, such as influenza or covid-19. 
 
@@ -135,7 +145,7 @@ The best strategy based on our study is to appy a social distance of 90% of adop
 
 **5) Infections distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.
 
-A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-22_Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
+A extended version of this report can be downloaded [here](/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
 
 <br>
 
