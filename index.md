@@ -42,7 +42,7 @@ A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-
 
 ## Background
 
-Current situation of emergency is global. In less than three months of social distance stratrategies started to be in place, there are more than 23 countries with more than 1.000 infected cases by COVID-19. Each of them with different mitigation and suppression strategies that use social distance tactics. 
+Current situation of emergency is global. In less than three months of social distance strategies that they started to be in place, there are more than 23 countries with more than 1.000 infected cases by COVID-19. Each of them with different mitigation and suppression strategies that use social distance tactics. 
 
 The results of this variance in strategies is that the balance of infected cases and deaths by country are different, putting millions of people at risk of death or saving millions of lives. 
 
