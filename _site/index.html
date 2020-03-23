@@ -10,14 +10,14 @@
     
     
     
-    <meta name="description" content="We give scientific answers to social distance strategies for the COVID-19 pandemic.">
+    <meta name="description" content="Scientific answers for the best social distance strategy to combat the COVID-19 pandemic.">
     <link href="https://fonts.googleapis.com/css2?family=Sen:400,700" rel="stylesheet" type="text/css">
     <link rel="alternate" type="application/rss+xml" title="COVID-19 Social Distance Strategies RSS" href="/feed.xml" />
     <link rel="stylesheet" href="/assets/css/main.css">
     
     
     <!-- Facebook Open Graph -->
-    <meta name="og:description" content="We give scientific answers to social distance strategies for the COVID-19 pandemic.">
+    <meta name="og:description" content="Scientific answers for the best social distance strategy to combat the COVID-19 pandemic.">
     <meta name="og:title" content="COVID-19 Social Distance Strategies">
     <meta name="og:url" content="http://localhost:4000//">
     <meta name="og:type" content="article">
@@ -28,7 +28,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="COVID-19 Social Distance Strategies">
-    <meta name="twitter:description" content="We give scientific answers to social distance strategies for the COVID-19 pandemic.">
+    <meta name="twitter:description" content="Scientific answers for the best social distance strategy to combat the COVID-19 pandemic.">
     <meta name="twitter:url" content="http://localhost:4000//">
     
         <meta name="twitter:image" content="/assets/images/best_strategy.png">
@@ -61,13 +61,13 @@
         
             <div class="container content">
         
-                <p><br /></p>
+            <p><br /></p>
 
 <h1 id="effectiveness-of-social-distance-strategies-for-protecting-a-community-from-a-pandemic-with-a-data-driven-contact-network-based-on-census-and-real-world-mobility-data">Effectiveness of social distance strategies for protecting a community from a pandemic with a data-driven contact network based on census and real-world mobility data</h1>
 
 <p><br /></p>
 
-<p>Authors: David Martín-Corral (1,4), Alberto Aleta (2,3), Yamir Moreno (2,3), Esteban Moro (1,5).</p>
+<p><strong>Authors:</strong> David Martín-Corral (1,4), Alberto Aleta (2,3), Yamir Moreno (2,3), Esteban Moro (1,5).</p>
 
 <p>(1) University Carlos III de Madrid, Leganés, Spain.</p>
 
@@ -81,7 +81,7 @@
 
 <p><strong>Notice:</strong> This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License.</p>
 
-<p>A extended version of this report can be downloaded <a href="/">here</a>.</p>
+<p>A extended version of this report can be downloaded <a href="/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf">here</a>.</p>
 
 <p><br /></p>
 
@@ -89,7 +89,7 @@
 
 <ol>
   <li>
-    <p><strong>School closures do not have a major impact on controlling the epidemic</strong>, despite closing them infections keep occurring within the households and the community layers.</p>
+    <p><strong>School closures do not have a major impact on controlling the epidemic</strong>, despite closing them, infections keep occurring within the households and the community layers.</p>
   </li>
   <li>
     <p><strong>Passive social distance strategies are not enough to contain the epidemic</strong>, active strategies need to be established. For instance, large scale testing, remote symptoms monitoring, isolation and contact tracing.</p>
@@ -98,50 +98,68 @@
     <p><strong>School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic</strong>, but only if they are applied for a large period of time.</p>
   </li>
   <li>
-    <p>If high resolution mobility data is available, <strong>our data-driven approach with real world data can ingest new cities or countries quite easily</strong> to measure the evolution of social distance strategies and the epidemic.</p>
+    <p><strong>A full confinement is not feasible and will not solve the problem</strong>, without active measures in place after the confinement, since there would be a new outbreak.</p>
+  </li>
+  <li>
+    <p>If high resolution mobility data is available, <strong>our data-driven approach with real world data can be easily replicated for new cities or countries</strong> to measure the impact of social distance strategies and the epidemic.</p>
   </li>
 </ol>
+
+<h2 id="abbrevations">Abbrevations</h2>
+
+<ul>
+  <li>ILI = Influenza-like Illness</li>
+  <li>SIR = Susceptible Infected Recovered</li>
+  <li>SEIR = Susceptieble Exposed Infected Recovered</li>
+</ul>
 
 <p><br /></p>
 
 <h2 id="background">Background</h2>
 
-<p>Current situation of emergency is global. In less than three months of social distance stratrategies started to be in place, there are more than 23 countries with more than 1.000 infected cases by COVID-19. Each of them with different mitigation and suppression strategies that use social distance tactics.</p>
+<p>The current situation of emergency is global. As of today, March 22nd 2020, there are more than 23 countries with more than 1.000 infected cases by COVID-19, in the exponential growth phase of the disease.</p>
 
-<p>The results of this variance in strategies is that the balance of infected cases and deaths by country are different, putting millions of people at risk of death or saving millions of lives.</p>
+<p>Furthermore, there are different mitigation and suppression strategies in place worldwide, but many of them are based on enforcing, to a more or less extent, the so-called social distancing.</p>
 
-<p>Our report has preliminary results that try to respond to the following answers to the COVID-19 epidemic and the mitigation strategies based on social distance:</p>
+<p>The impact and outcomes of the adopted measures are yet to be contrasted and quantified. Therefore, realistic modeling approaches could provide important clues about what to expect and what could be the best course of actions. Such modeling efforts could potentially save thousands, if not millions of lives.</p>
+
+<p>Our report contains preliminary results that aim at answering the following questions in relation to the spread and control of the COVID-19 pandemic:</p>
 
 <ul>
   <li>
-    <p>What is the impact of current social distance strategies over the epidemic?</p>
+    <p>What is the expected impact of current social distancing strategies?</p>
   </li>
   <li>
-    <p>For how long do they need to be in place? How many people will be infected? Who has been infected?</p>
+    <p>How long should such measures need to be in place?</p>
   </li>
   <li>
-    <p>How do R(t) and the epidemic dynamic change based on adding strategies?</p>
+    <p>How many people will be infected and at which social level?</p>
   </li>
   <li>
-    <p>What is the probability of having a second outbreak?</p>
+    <p>How do R(t) and the epidemic dynamic change based on the adopted strategies?</p>
   </li>
   <li>
-    <p>If so, How much time do we have to get ready? How long should we wait to have x% of the population infected?</p>
+    <p>What is the probability of having a second outbreak, i.e., a reemergence?</p>
   </li>
   <li>
-    <p>Which is the best strategy to minimize the current epidemic and get ready for a second outbreak?</p>
+    <p>If there is a reemergence, how much time do we have to get ready?</p>
+  </li>
+  <li>
+    <p>What is the best strategy to minimize the current epidemic and get ready for a second wave?</p>
   </li>
 </ul>
 
-<p>We test a set of six passive social distance strategies and what if cases to respond previous questions.</p>
+<p>In this report, we provide details of the data analyzed, the methodology (and its limitations) employed as well as a quantitative and qualitative assessment of strategies based on social distancing and corresponding what-if-scenarios for control and mitigation.</p>
 
-<h2 id="data">Data</h2>
+<h2 id="data--methods">Data &amp; Methods</h2>
+
+<h3 id="mobility-and-synthetic-data-for-building-the-contact-network"><em>Mobility and synthetic data for building the contact network</em></h3>
 
 <p>We used detailed mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively.</p>
 
-<p>We use it to generate one network describing the contact patterns of about 80.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).</p>
+<p>We use it to generate one network describing the contact patterns of about 85.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).</p>
 
-<p>The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the school layer is based on children from households.</p>
+<p>The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the schools layer is based on children from households.</p>
 
 <p>Probabilities of contact are based on the time of two individuals being in the same place.</p>
 
@@ -149,19 +167,19 @@
 
 <p>In the previous chart we can see the distribution of adults and children in the population by US Census block groups in the Boston area. The Adult population comes from real world mobility data and children are synthetically generated with the help of the US Census data about Household type by size and Family type by presence of children under 18 years.</p>
 
-<h2 id="data-driven-epidemic-models">Data-driven epidemic models</h2>
-
-<h3 id="calibrating-layer-weights-using-historical-ili-data-and-a-sir-model">Calibrating layer weights using historical ILI data and a SIR model</h3>
+<h3 id="calibrating-layer-weights-using-historical-ili-data-and-a-sir-model"><em>Calibrating layer weights using historical ILI data and a SIR model</em></h3>
 
 <p>Initially, the weight of each link measures a different quantity. Links in households and schools have a weight equal to 1.</p>
 
 <p>Conversely, links in the community layer are a measure of time, since it is the product of the fraction of time that individuals i and j have been in the same place</p>
 
-<h3 id="seir-model-for-modelling-the-covid-19-epidemic">SEIR model for modelling the COVID-19 epidemic</h3>
+<h3 id="seir-model-for-modelling-the-covid-19-epidemic"><em>SEIR model for modelling the COVID-19 epidemic</em></h3>
 
-<p>With the values obtained in the previous model, we can weight each link by their relative importance in the propagation of a disease that is transmitted by droplets, such as influenza or covid-19. The next step is to modify the previous model to include the special characteristics of this new disease.</p>
+<p>With the values obtained in the previous model, we can weight each link by their relative importance in the propagation of a disease that is transmitted by droplets, such as influenza or covid-19.</p>
 
-<h2 id="social-distance-startegies">Social distance startegies</h2>
+<p>The next step is to modify the previous model to include the special characteristics of this new disease.</p>
+
+<h2 id="social-distance-strategies-tested">Social distance strategies tested</h2>
 
 <p>We explore different social distance strategies:</p>
 
@@ -179,13 +197,17 @@
 
 <p>We test the impact of establishing these strategies at different stages of the epidemic curve and for different periods of time.</p>
 
-<h2 id="best-strategy-for-minimizing-the-impact-of-covid-19-epidemic">Best strategy for minimizing the impact of COVID-19 epidemic</h2>
+<h2 id="best-strategy-for-minimizing-the-impact-of-the-covid-19-epidemic">Best strategy for minimizing the impact of the COVID-19 epidemic</h2>
 
 <p>The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.</p>
 
 <p>In the following chart, we can see the dynamic of the epidemic if the propose strategy is established.</p>
 
+<p><br /></p>
+
 <p><img src="/assets/images/best_strategy.svg" alt="Best social distance strategy" /></p>
+
+<p><br /></p>
 
 <p>The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.</p>
 
@@ -197,9 +219,11 @@
 
 <p><strong>4) New infections by layer:</strong> We see similar epidemic dynamics between 30 and 90 days, the duration of the measures just keep stable the proportion of new infections by layer while the measures are in place.</p>
 
-<p><strong>5) Case distribution by layer:</strong> Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.</p>
+<p><strong>5) Infections distribution by layer:</strong> Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.</p>
 
-<p>A extended version of this report can be downloaded <a href="/">here</a>.</p>
+<p>A extended version of this report can be downloaded <a href="/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf">here</a>.</p>
+
+<p><br /></p>
 
 <h2 id="data-protection">Data Protection</h2>
 
@@ -211,12 +235,13 @@
 
 <p>This preliminary analysis is a collaboration between the <a href="">University Carlos III de Madrid</a>, <a href="https://www.unizar.es/">University of Zaragoza</a>, <a href="https://www.media.mit.edu/people/emoro/overview/">MIT Media Lab</a>, <a href="https://www.isi.it/en/home">ISI Foundation</a>, <a href="https://www.cuebiq.com/">CubeIQ Inc</a>. and <a href="https://zenseiapp.com">Zensei Technologies S.L.</a>. In response to the COVID-19 crisis, <a href="https://www.cuebiq.com/about/data-for-good/">Cuebiq is providing insights to academic and humanitarian groups through a multi-stakeholder data collaborative</a> for timely and ethical analysis of aggregate human mobility patterns.</p>
 
+<p><br /></p>
 
+        
+            <br>
+            <hr />
+            <div style="margin-bottom: 10px">
                 
-                    <br>
-                    <hr />
-                    <div style="margin-bottom: 10px">
-                        
 
 <style>
 #share-buttons {display: inline-block; vertical-align: middle; }
@@ -247,19 +272,20 @@
 </style>
 
 <span style="color: silver;">Share on: </span><div id="share-buttons">
-    <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
-    <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/intent/tweet?text=http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
-    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/&title=COVID-19 Social Distance Strategies&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+    <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=COVID-19 Social Distance Strategies. . http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+    <div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/intent/tweet?text=COVID-19 Social Distance Strategies. . http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=COVID-19 Social Distance Strategies. . http://localhost:4000/&title=COVID-19 Social Distance Strategies&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
     <div class="pinterest" title="Share this on Pinterest" onclick="window.open('https://pinterest.com/pin/create/button/?url=&media=http://localhost:4000/assets/images/best_strategy.png&description=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M256 597q0-108 37.5-203.5t103.5-166.5 152-123 185-78 202-26q158 0 294 66.5t221 193.5 85 287q0 96-19 188t-60 177-100 149.5-145 103-189 38.5q-68 0-135-32t-96-88q-10 39-28 112.5t-23.5 95-20.5 71-26 71-32 62.5-46 77.5-62 86.5l-14 5-9-10q-15-157-15-188 0-92 21.5-206.5t66.5-287.5 52-203q-32-65-32-169 0-83 52-156t132-73q61 0 95 40.5t34 102.5q0 66-44 191t-44 187q0 63 45 104.5t109 41.5q55 0 102-25t78.5-68 56-95 38-110.5 20-111 6.5-99.5q0-173-109.5-269.5t-285.5-96.5q-200 0-334 129.5t-134 328.5q0 44 12.5 85t27 65 27 45.5 12.5 30.5q0 28-15 73t-37 45q-2 0-17-3-51-15-90.5-56t-61-94.5-32.5-108-11-106.5z"/></svg></div>
     <div class="mail" title="Share this through Email" onclick="window.open('mailto:?subject=COVID-19 Social Distance Strategies&body=http://localhost:4000/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
 </div>
-                        <p style="text-align: center; margin-bottom: 10px">
-                            <a href="" style="color: black"><small></small></a>
-                        </p>
-                    </div>
-                
+                <p style="text-align: center; margin-bottom: 10px">
+                    <a href="" style="color: black"><small></small></a>
+                </p>
             </div>
+        
+        </div>
     </div>
+    <br>
     
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
