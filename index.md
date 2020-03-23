@@ -89,7 +89,9 @@ Conversely, links in the community layer are a measure of time, since it is the 
 
 ### SEIR model for modelling the COVID-19 epidemic
 
-With the values obtained in the previous model, we can weight each link by their relative importance in the propagation of a disease that is transmitted by droplets, such as influenza or covid-19. The next step is to modify the previous model to include the special characteristics of this new disease.
+With the values obtained in the previous model, we can weight each link by their relative importance in the propagation of a disease that is transmitted by droplets, such as influenza or covid-19. 
+
+The next step is to modify the previous model to include the special characteristics of this new disease.
 
 ## Social distance strategies tested
 
