@@ -68,7 +68,7 @@ We test a set of six passive social distance strategies and what if cases to res
 
 We used detailed mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively. 
 
-We use it to generate one network describing the contact patterns of about 80.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
+We use it to generate one network describing the contact patterns of about 85.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
 
 The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the school layer is based on children from households. 
 
