@@ -80,19 +80,20 @@
         {% else %}
             <div class="container content">
         {% endif %}
-                {{ content }}
-                {% if site.footer == true %}
-                    <br>
-                    <hr />
-                    <div style="margin-bottom: 10px">
-                        {% include share-buttons.html %}
-                        <p style="text-align: center; margin-bottom: 10px">
-                            <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
-                        </p>
-                    </div>
-                {% endif %}
+            {{ content }}
+        {% if site.footer == true %}
+            <br>
+            <hr />
+            <div style="margin-bottom: 10px">
+                {% include share-buttons.html %}
+                <p style="text-align: center; margin-bottom: 10px">
+                    <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
+                </p>
             </div>
+        {% endif %}
+        </div>
     </div>
+    <br>
     {% if site.tracking_id %}
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
