@@ -10,7 +10,7 @@ image: /assets/images/best_strategy.png
 
 <br>
 
-**Authors:** David Martín-Corral (1,4), Alberto Aleta (2,3), Alex Pentland (5), Yamir Moreno (2,3), Esteban Moro (1,5).
+**Authors:** David Martín-Corral (1,4), Alberto Aleta (3), Alex Pentland (5), Yamir Moreno (2,3), Esteban Moro (1,5).
  
 (1) University Carlos III de Madrid, Leganés, Spain.
 
@@ -22,7 +22,7 @@ image: /assets/images/best_strategy.png
 
 (5) Connection Science, Institute for Data Science and Society, MIT, Cambridge, US.
 
-**Notice:** This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. 
+**Notice:** These results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. 
 
 A extended version of this report can be downloaded [here](/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
 
@@ -81,21 +81,19 @@ In this report, we provide details of the data analyzed, the methodology (and it
 
 We used de-identified mobility data and sociodemographic data from the Boston area, from Cubeiq and US Census, respectively. The de-identified mobility data is from users who opted in to share their data anonymously.
 
-We use it to generate one network describing the contact patterns of about 85.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
+We use it to generate one network describing the contact patterns of about 100.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
 
-The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the schools layer is based on children from households. 
-
-Probabilities of contact are based on the time of two individuals being in the same place.
+The community layer is based on mobility data, the households layer is built from census data, and finally, the schools layer is based on the geographical location of children.
 
 ![Best social distance strategy](/assets/images/boston_population.png)
 
-In the previous chart we can see the distribution of adults and children in the population by US Census block groups in the Boston area. The Adult population comes from real world mobility data and children are synthetically generated with the help of the US Census data about Household type by size and Family type by presence of children under 18 years.
+In the previous chart we can see the distribution of adults and children in the population by US Census block groups in the Boston area. The Adult population comes from real world mobility data and children are synthetically generated using the US Census.
 
 ### _Calibrating layer weights using historical ILI data and a SIR model_
 
-Initially, the weight of each link measures a different quantity. Links in households and schools have a weight equal to 1. 
+Initially, the weight of each link measures a different quantity. Links in households and schools have a weight equal to 1. Conversely, links in the community layer are a measure of time, since it is the product of the fraction of time that individuals i and j have been in the same place.
 
-Conversely, links in the community layer are a measure of time, since it is the product of the fraction of time that individuals i and j have been in the same place
+To calibrate the relative importance of each layer we fit a SIR model to the propagation of a typical ILI [1].
 
 ### _SEIR model for modelling the COVID-19 epidemic_
 
@@ -123,9 +121,9 @@ We test the impact of establishing these strategies at different stages of the e
 
 ## Best strategy for minimizing the impact of the COVID-19 epidemic
 
-The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
+Based on our analysis, social distancing with 90% of adoption and total non-essential closures are valid strategies for mitigating the outbreak. However, once the restrictions are lifted the risk of having a second outbreak is high. To prevent this situation, active strategies such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing need to be implemented.
 
-In the following chart, we can see the dynamic of the epidemic if the total confinement is applied. We can see a second outbreak with a high reproductive number. Therefore, we think that this strategy is not the best one at operational and economic level.
+In the following chart, we can see the dynamic of the epidemic if the total confinement is applied. We can see a second outbreak with a high reproductive number.
 
 <br>
 
@@ -133,7 +131,7 @@ In the following chart, we can see the dynamic of the epidemic if the total conf
 
 <br>
 
-In the next chart, we can see that social distancing is adopted by 50% of the population and school closures are effective. The result of this strategy is that the epidemic is delayed even longer with less intense peaks. It is effective on flattening the curve but the probability of a second outbreak is still high.
+In the next chart, we can see the effect a 50% adoption of social distancing and school closures. The result of this strategy is that the first peak of the epidemic is not too large, but as soon as the restrictions are lifted there could be a second outbreak. In this case the second peak is smaller due to the reduction of susceptible individuals after the first peak.
 
 <br>
 
@@ -141,7 +139,13 @@ In the next chart, we can see that social distancing is adopted by 50% of the po
 
 <br>
 
-Therefore, the best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
+In general, we observe that passive mitigation strategies:
+
+* Reduce the size of the first peak, but can lead to a second peak once restrictions are lifted.
+
+* Even if the effective reproduction number goes below 1, it can jump above the threshold once restrictions are lifted.
+
+More details about its dynamic:
 
 **1) Epidemic trajectory:** We can see that the epidemic trajectory keeps at minimum while the strategy endures. That give us time for getting ready and control the second wave with a well defined suppression strategy.
 
@@ -154,6 +158,10 @@ Therefore, the best strategy based on our study is to appy a social distance of 
 **5) Infections distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.
 
 A extended version of this report can be downloaded [here](/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
+
+## References
+
+[1] [Measurability of the epidemic reproduction number in data-driven contact networks](https://www.pnas.org/lookup/doi/10.1073/pnas.1811115115)
 
 <br>
 
