@@ -91,7 +91,7 @@ Conversely, links in the community layer are a measure of time, since it is the 
 
 With the values obtained in the previous model, we can weight each link by their relative importance in the propagation of a disease that is transmitted by droplets, such as influenza or covid-19. The next step is to modify the previous model to include the special characteristics of this new disease.
 
-## Social distance startegies
+## Social distance strategies tested
 
 We explore different social distance strategies:
 
@@ -109,7 +109,7 @@ We explore different social distance strategies:
 
 We test the impact of establishing these strategies at different stages of the epidemic curve and for different periods of time.
 
-## Best strategy for minimizing the impact of COVID-19 epidemic
+## Best strategy for minimizing the impact of the COVID-19 epidemic
 
 The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
 
