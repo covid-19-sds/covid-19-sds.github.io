@@ -123,7 +123,7 @@ We test the impact of establishing these strategies at different stages of the e
 
 Based on our analysis, social distancing with 90% of adoption and total non-essential closures are valid strategies for mitigating the outbreak. However, once the restrictions are lifted the risk of having a second outbreak is high. To prevent this situation, active strategies such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing need to be implemented.
 
-In the following chart, we can see the dynamic of the epidemic if the total confinement is applied. We can see a second outbreak with a high reproductive number.
+In the following chart, we can see the dynamic of the epidemic if the total confinement is applied. We can see a second outbreak with a large reproductive number.
 
 <br>
 
