@@ -34,7 +34,7 @@ Phd candidate in Physics at University of Zaragoza (Spain) and Visiting research
 
 ## David Martín-Corral
 
-Phd candidate in Mathematical Engineering at the Universidad Carlos III de Madrid (Spain) and Cofounder of Zensei App, a data-driven virtual respiratory clinic.
+Phd candidate in Mathematical Engineering at the Universidad Carlos III de Madrid (Spain) and co-founder of Zensei App, a data-driven virtual respiratory clinic.
 
 * [Twitter](https://twitter.com/Dmartincc)
 
