@@ -157,11 +157,31 @@ More details about its dynamic:
 
 **5) Infections distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. However, there are important differences between the situation with and without mitigation strategies. While the restrictions are in place, almost 80% of the infections are produced within households. Once the restrictions are lifted, most new infections take place within the community.
 
-A extended version of this report can be downloaded [here](/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
+## Limitations of the study
+
+- Social mixing as given by age is not included. This might be important to evaluate CFT and other age-related quantities.
+
+- Children are not present in the community layer. The impact of this limitation should not be important in most scenarios as they consider confinement at households.
+
+- The mobility data is biased towards neighborhoods with a larger amount of family households than the average.
+
+- Currently we do not distinguish between mild and critical cases.
+
+- Uncertainties on the precise values of several epidemic parameters. This
+implies that the arrival of the peak or the duration of the restrictions cannot be taken as an exact quantity but an indication of the expected overall behavior. More simulations will be carried out to perform a sensitivity analysis.
+
+- The population is closed. This limitation is not supposed to be severe as the underlying assumption is that inter-subpopulation mobility is reduced to minimal levels.
+
+- We build the school layers by mixing children from the same US Census tract.
+
+- When we implement restrictions over some places, we consider that the
+relationships in the others are not affected. Similarly, once restrictions are removed, we consider that the population goes back to normal, but it is likely that a significant fraction of individuals will still adopt self-aware measures, such as wearing masks, reducing some unnecessary contacts, etc. However, these can be considered as examples of active measures rather than passive and currently we have not included them in the model.
 
 ## References
 
 [1] [Measurability of the epidemic reproduction number in data-driven contact networks](https://www.pnas.org/lookup/doi/10.1073/pnas.1811115115)
+
+A extended version of this report can be downloaded [here](/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
 
 <br>
 

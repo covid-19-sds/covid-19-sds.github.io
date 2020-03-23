@@ -98,7 +98,7 @@
     <p><strong>School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic</strong>, but only if they are applied for a large period of time.</p>
   </li>
   <li>
-    <p><strong>A full confinement is not feasible and will not solve the problem</strong>, without active measures in place after the confinement, since there would be a new outbreak.</p>
+    <p><strong>A full confinement is not feasible and will not solve the problem without active measures in place after the confinement</strong>, since there would be a new outbreak.</p>
   </li>
   <li>
     <p>If high resolution mobility data is available, <strong>our data-driven approach with real world data can be easily replicated for new cities or countries</strong> to measure the impact of social distance strategies and the epidemic.</p>
@@ -199,7 +199,7 @@
 
 <p>Based on our analysis, social distancing with 90% of adoption and total non-essential closures are valid strategies for mitigating the outbreak. However, once the restrictions are lifted the risk of having a second outbreak is high. To prevent this situation, active strategies such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing need to be implemented.</p>
 
-<p>In the following chart, we can see the dynamic of the epidemic if the total confinement is applied. We can see a second outbreak with a high reproductive number.</p>
+<p>In the following chart, we can see the dynamic of the epidemic if the total confinement is applied. We can see a second outbreak with a large reproductive number.</p>
 
 <p><br /></p>
 
@@ -230,19 +230,50 @@
 
 <p><strong>1) Epidemic trajectory:</strong> We can see that the epidemic trajectory keeps at minimum while the strategy endures. That give us time for getting ready and control the second wave with a well defined suppression strategy.</p>
 
-<p><strong>2) Total cases:</strong> We can see that the duration of the social distance measures delay the growth of cumulative cases the time of the measures plus 30 days.</p>
+<p><strong>2) Total cases:</strong> We can see that the duration of the social distance measures delay the growth of cumulative cases  as long as the duration of the restrictions is longer than 30 days.</p>
 
-<p><strong>3) Effective reproduction number:</strong> We see that the strategy can reduce the effective reproduction number below 1 to contain the exponetial growth of the epidemic. However, when social distance measures are withdrawn the reproductive number grows exponentially.</p>
+<p><strong>3) Effective reproduction number:</strong> Effective reproduction number: We see that the strategy can reduce the effective reproduction number below 1 to contain the exponetial growth of the epidemic. However, when social distance measures are withdrawn the reproductive number grows exponentially.</p>
 
 <p><strong>4) New infections by layer:</strong> We see similar epidemic dynamics between 30 and 90 days, the duration of the measures just keep stable the proportion of new infections by layer while the measures are in place.</p>
 
-<p><strong>5) Infections distribution by layer:</strong> Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.</p>
+<p><strong>5) Infections distribution by layer:</strong> Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. However, there are important differences between the situation with and without mitigation strategies. While the restrictions are in place, almost 80% of the infections are produced within households. Once the restrictions are lifted, most new infections take place within the community.</p>
 
-<p>A extended version of this report can be downloaded <a href="/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf">here</a>.</p>
+<h2 id="limitations-of-the-study">Limitations of the study</h2>
+
+<ul>
+  <li>
+    <p>Social mixing as given by age is not included. This might be important to evaluate CFT and other age-related quantities.</p>
+  </li>
+  <li>
+    <p>Children are not present in the community layer. The impact of this limitation should not be important in most scenarios as they consider confinement at households.</p>
+  </li>
+  <li>
+    <p>The mobility data is biased towards neighborhoods with a larger amount of family households than the average.</p>
+  </li>
+  <li>
+    <p>Currently we do not distinguish between mild and critical cases.</p>
+  </li>
+  <li>
+    <p>Uncertainties on the precise values of several epidemic parameters. This
+implies that the arrival of the peak or the duration of the restrictions cannot be taken as an exact quantity but an indication of the expected overall behavior. More simulations will be carried out to perform a sensitivity analysis.</p>
+  </li>
+  <li>
+    <p>The population is closed. This limitation is not supposed to be severe as the underlying assumption is that inter-subpopulation mobility is reduced to minimal levels.</p>
+  </li>
+  <li>
+    <p>We build the school layers by mixing children from the same US Census tract.</p>
+  </li>
+  <li>
+    <p>When we implement restrictions over some places, we consider that the
+relationships in the others are not affected. Similarly, once restrictions are removed, we consider that the population goes back to normal, but it is likely that a significant fraction of individuals will still adopt self-aware measures, such as wearing masks, reducing some unnecessary contacts, etc. However, these can be considered as examples of active measures rather than passive and currently we have not included them in the model.</p>
+  </li>
+</ul>
 
 <h2 id="references">References</h2>
 
 <p>[1] <a href="https://www.pnas.org/lookup/doi/10.1073/pnas.1811115115">Measurability of the epidemic reproduction number in data-driven contact networks</a></p>
+
+<p>A extended version of this report can be downloaded <a href="/assets/pdfs/Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf">here</a>.</p>
 
 <p><br /></p>
 
