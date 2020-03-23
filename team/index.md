@@ -4,6 +4,13 @@ layout: default
 
 <br>
 
+## Alex Pentland
+
+Alex Paul "Sandy" Pentland is an American computer scientist, the Toshiba Professor at MIT, and serial entrepreneur.
+
+* [Twitter](https://twitter.com/alex_pentland)
+
+
 ## Esteban Moro
 
 Visiting professor at the MIT Media Lab (US) and associate professor at the Universidad Carlos III de Madrid (Spain).
