@@ -151,7 +151,7 @@ More details about its dynamic:
 
 **2) Total cases:** We can see that the duration of the social distance measures delay the growth of cumulative cases  as long as the duration of the restrictions is longer than 30 days.
 
-**3) Effective reproduction number:** We see that the strategy can reduce the effective reproduction number below 1 to contain the exponetial growth of the epidemic. However, when social distance measures are withdrawn the reproductive number grows exponentially.
+**3) Effective reproduction number:** Effective reproduction number: We see that the strategy can reduce the effective reproduction number below 1 to contain the exponetial growth of the epidemic. However, when social distance measures are withdrawn the reproductive number grows exponentially.
 
 **4) New infections by layer:** We see similar epidemic dynamics between 30 and 90 days, the duration of the measures just keep stable the proportion of new infections by layer while the measures are in place.
 
