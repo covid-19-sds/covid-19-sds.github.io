@@ -79,7 +79,7 @@ In this report, we provide details of the data analyzed, the methodology (and it
 
 ### _Mobility and synthetic data for building the contact network_
 
-We used de-identified mobility data and sociodemographic data from the Boston area, from CubeIQ and US Census, respectively. The de-identified mobility data is from users who opted in to share their data anonymously.
+We used de-identified mobility data and sociodemographic data from the Boston area, from Cubeiq and US Census, respectively. The de-identified mobility data is from users who opted in to share their data anonymously.
 
 We use it to generate one network describing the contact patterns of about 85.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
 
@@ -165,6 +165,6 @@ In order to preserve privacy, residential areas are inferred at an aggregated US
 
 ## Acknoledgements and Partnerships
 
-This preliminary analysis is a collaboration between the [University Carlos III de Madrid](), [University of Zaragoza](https://www.unizar.es/), [MIT Media Lab](https://www.media.mit.edu/people/emoro/overview/), [ISI Foundation](https://www.isi.it/en/home), [CubeIQ Inc](https://www.cuebiq.com/). and [Zensei Technologies S.L.](https://zenseiapp.com). In response to the COVID-19 crisis, [Cuebiq is providing insights to academic and humanitarian groups through a multi-stakeholder data collaborative](https://www.cuebiq.com/about/data-for-good/) for timely and ethical analysis of aggregate human mobility patterns.
+This preliminary analysis is a collaboration between the [University Carlos III de Madrid](), [University of Zaragoza](https://www.unizar.es/), [MIT Media Lab](https://www.media.mit.edu/people/emoro/overview/), [ISI Foundation](https://www.isi.it/en/home), [Cubeiq Inc](https://www.cuebiq.com/). and [Zensei Technologies S.L.](https://zenseiapp.com). In response to the COVID-19 crisis, [Cuebiq is providing insights to academic and humanitarian groups through a multi-stakeholder data collaborative](https://www.cuebiq.com/about/data-for-good/) for timely and ethical analysis of aggregate human mobility patterns.
 
 <br>
