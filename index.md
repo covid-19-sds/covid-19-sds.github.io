@@ -36,7 +36,9 @@ A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-
 
   3. **School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic**, but only if they are applied for a large period of time.
 
-  4. If high resolution mobility data is available, **our data-driven approach with real world data can ingest new cities or countries quite easily** to measure the evolution of social distance strategies and the epidemic.
+  4. **A full confinement is not feasible and will not solve the problem**, without active measures in place after confinement there would be a new outbreak.
+
+  5. If high resolution mobility data is available, **our data-driven approach with real world data can ingest new cities or countries quite easily** to measure the evolution of social distance strategies and the epidemic.
 
 <br>
 
@@ -125,7 +127,7 @@ The best strategy based on our study is to appy a social distance of 90% of adop
 
 **4) New infections by layer:** We see similar epidemic dynamics between 30 and 90 days, the duration of the measures just keep stable the proportion of new infections by layer while the measures are in place.
 
-**5) Case distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.
+**5) Infections distribution by layer:** Finally, the main proportion of cases take place in the community and workplaces, nearly a 50% of them. Then households are the second place where people are infected. And finally, schools. We do not see differences in the distribution of cases with duration of the measures.
 
 A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-22_Preliminary_Report_Effectiveness_of_social_distance_strategies_COVID-19.pdf).
 
