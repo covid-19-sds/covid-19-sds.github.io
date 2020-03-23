@@ -56,7 +56,7 @@ Our report has preliminary results that try to respond to the following answers 
 
 * What is the probability of having a second outbreak? 
 
-* If so, How much time do we have to get ready? How long should we wait to have x% of the population infected? 
+* If so, How much time do we have to get ready?
 
 * Which is the best strategy to minimize the current epidemic and get ready for a second outbreak?
 
