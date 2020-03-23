@@ -10,7 +10,7 @@ image: /assets/images/best_strategy.png
 
 <br>
 
-Authors: David Martín-Corral (1,4), Alberto Aleta (2,3), Yamir Moreno (2,3), Esteban Moro (1,5).
+**Authors:** David Martín-Corral (1,4), Alberto Aleta (2,3), Yamir Moreno (2,3), Esteban Moro (1,5).
  
 (1) University Carlos III de Madrid, Leganés, Spain.
 
