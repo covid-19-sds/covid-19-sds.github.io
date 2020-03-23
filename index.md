@@ -34,7 +34,7 @@ A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-
 
   2. **Passive social distance strategies are not enough to contain the epidemic**, active strategies need to be established. For instance, large scale testing, remote symptoms monitoring, isolation and contact tracing.
 
-  3. **School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic**, but only if they are applied for a large period of time.
+  3. **School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic**, but only if they are applied for a large period of time and follow by active measures.
 
   4. **A full confinement is not feasible and will not solve the problem**, without active measures in place after the confinement there would be a new outbreak.
 
@@ -70,7 +70,7 @@ We used detailed mobility data and sociodemographic data from the Boston area, f
 
 We use it to generate one network describing the contact patterns of about 85.000 agents in the Boston area during a period of four months and three layers (Community, Households and Schools).
 
-The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the school layer is based on children from households. 
+The community layer is based on mobility data, the households layer is built from census data for generating children and parents or people living alone come from the individuals present in the community, and finally, the schools layer is based on children from households. 
 
 Probabilities of contact are based on the time of two individuals being in the same place.
 
