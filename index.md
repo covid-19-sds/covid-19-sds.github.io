@@ -6,11 +6,11 @@ image: /assets/images/best_strategy.png
 
 <br>
 
-# Effectiveness of social distance strategies for protecting a community from a pandemic with a data-driven contact network based on census and real-world mobility data
+# Effectiveness of social distancing strategies for protecting a community from a pandemic with a data- driven contact network based on census and real-world mobility data
 
 <br>
 
-**Authors:** David Martín-Corral (1,4), Alberto Aleta (2,3), Yamir Moreno (2,3), Esteban Moro (1,5).
+**Authors:** David Martín-Corral (1,4), Alberto Aleta (2,3), Alex Pentland (5), Yamir Moreno (2,3), Esteban Moro (1,5).
  
 (1) University Carlos III de Madrid, Leganés, Spain.
 
@@ -20,7 +20,7 @@ image: /assets/images/best_strategy.png
 
 (4) Zensei Technologies S.L., Madrid, Spain.
 
-(5) MIT Media Lab, Cambridge, US.
+(5) Connection Science, Institute for Data Science and Society, MIT, Cambridge, US.
 
 **Notice:** This results are preliminary and they have not yet been peer-reviewed. We will be updating them with new results and analysis. This work is licensed under a Creative Commons Attribution 4.0 International License. 
 
@@ -129,11 +129,19 @@ In the following chart, we can see the dynamic of the epidemic if the total conf
 
 <br>
 
-![Best social distance strategy](/assets/images/best_strategy.svg)
+![Total confinement social distancing strategy](/assets/images/Strategy6.svg)
 
 <br>
 
-The best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
+In the next chart, we can see that social distancing is adopted by 50% of the population and school closures are effective. The result of this strategy is that the epidemic is delayed even longer with less intense peaks. It is effective on flattening the curve but the probability of a second outbreak is still high.
+
+<br>
+
+![Self distancing social distancing strategy](/assets/images/Strategy3_0.50.svg)
+
+<br>
+
+Therefore, the best strategy based on our study is to appy a social distance of 90% of adoption within the population and school closures. We think that is a feasible strategy that can buy time to get ready for more active suppression strategies, such as massive testing, remote symptoms monitoring, isolation of new cases and contact tracing.
 
 **1) Epidemic trajectory:** We can see that the epidemic trajectory keeps at minimum while the strategy endures. That give us time for getting ready and control the second wave with a well defined suppression strategy.
 
