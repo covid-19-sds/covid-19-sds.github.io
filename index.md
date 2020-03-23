@@ -36,7 +36,7 @@ A extended version of this report can be downloaded [here](/assets/pdfs/2020-03-
 
   3. **School closures and Self distancing at 90% of adoption is a feasible strategy for minimizing the effects of the epidemic**, but only if they are applied for a large period of time.
 
-  4. **A full confinement is not feasible and will not solve the problem**, without active measures in place after confinement there would be a new outbreak.
+  4. **A full confinement is not feasible and will not solve the problem**, without active measures in place after the confinement there would be a new outbreak.
 
   5. If high resolution mobility data is available, **our data-driven approach with real world data can ingest new cities or countries quite easily** to measure the evolution of social distance strategies and the epidemic.
 
