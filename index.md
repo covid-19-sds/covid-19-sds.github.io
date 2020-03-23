@@ -149,7 +149,7 @@ More details about its dynamic:
 
 **1) Epidemic trajectory:** We can see that the epidemic trajectory keeps at minimum while the strategy endures. That give us time for getting ready and control the second wave with a well defined suppression strategy.
 
-**2) Total cases:** We can see that the duration of the social distance measures delay the growth of cumulative cases the time of the measures plus 30 days.
+**2) Total cases:** We can see that the duration of the social distance measures delay the growth of cumulative cases  as long as the duration of the restrictions is longer than 30 days.
 
 **3) Effective reproduction number:** We see that the strategy can reduce the effective reproduction number below 1 to contain the exponetial growth of the epidemic. However, when social distance measures are withdrawn the reproductive number grows exponentially.
 
