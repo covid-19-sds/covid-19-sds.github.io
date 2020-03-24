@@ -4,22 +4,29 @@ layout: default
 
 <br>
 
+## David Martín-Corral
+
+Phd candidate in Mathematical Engineering at the Universidad Carlos III de Madrid (Spain) and co-founder of Zensei App, a data-driven virtual respiratory clinic.
+
+* [Twitter](https://twitter.com/Dmartincc)
+
+* [Email](mailto:dmartinc84@gmail.com)
+
+<br>
+
+## Alberto Aleta
+
+Postdoctoral fellow at ISI Foundation, Turin, Italy" and member COSNET Lab at the Institute BIFI of the University of Zaragoza.
+
+* [Email](mailto:of the University of Zaragoza)
+
+<br>
+
 ## Alex Pentland
 
 Alex Paul "Sandy" Pentland is an American computer scientist, the Toshiba Professor at MIT, and serial entrepreneur.
 
 * [Twitter](https://twitter.com/alex_pentland)
-
-
-## Esteban Moro
-
-Visiting professor at the MIT Media Lab (US) and associate professor at the Universidad Carlos III de Madrid (Spain).
-
-* [Twitter](https://twitter.com/estebanmoro)
-
-* [Email](mailto:esteban.moroegido@gmail.com)
-
-<br>
 
 ## Yamir Moreno
 
@@ -31,21 +38,13 @@ Professor of Physics at the Department of Theoretical Physics and Director of th
 
 <br>
 
-## Alberto Aleta
+## Esteban Moro
 
-Phd candidate in Physics at University of Zaragoza (Spain) and Visiting researcher at Institute for Scientific Interchage (ISI) in Turin, Italy.
+Visiting professor at the MIT Media Lab (US) and associate professor at the Universidad Carlos III de Madrid (Spain).
 
-* [Email](mailto:of the University of Zaragoza)
+* [Twitter](https://twitter.com/estebanmoro)
 
-<br>
-
-## David Martín-Corral
-
-Phd candidate in Mathematical Engineering at the Universidad Carlos III de Madrid (Spain) and co-founder of Zensei App, a data-driven virtual respiratory clinic.
-
-* [Twitter](https://twitter.com/Dmartincc)
-
-* [Email](mailto:dmartinc84@gmail.com)
+* [Email](mailto:esteban.moroegido@gmail.com)
 
 <br>
 
