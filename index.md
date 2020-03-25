@@ -6,7 +6,7 @@ image: /assets/images/best_strategy.png
 
 <br>
 
-# Effectiveness of social distancing strategies for protecting a community from a pandemic with a data- driven contact network based on census and real-world mobility data
+# Effectiveness of social distancing strategies for protecting a community from a pandemic with a data-driven contact network based on census and real-world mobility data
 
 <br>
 
